@@ -27,3 +27,11 @@ It utilizes pandas to read data from Excel files into DataFrame objects for furt
 Error handling:
 It displays warning or success messages using messagebox to inform the user about the outcome of database operations.
 Overall, the application allows users to interact with a SQL Server database by creating tables, inserting data, truncating tables, dropping tables, and deleting rows from a specific table. The GUI provides a user-friendly interface for performing these database operations.
+
+
+
+
+pip install pyodbc
+pip install pyxlsb
+pip install  pyinstaller
+pyinstaller --onefile "C:\Users\admin.nasim\Desktop\Auto Creat&insert indexbase.ipynb
